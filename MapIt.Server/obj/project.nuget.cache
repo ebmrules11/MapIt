@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "c5PNKxRrVlFfbnhanMrBCz0PqGrcVCbS4DxJ41WRqm7m/OfczTFPZNUaHIRdEcXX6Pxs9iGA4HJis2xNnm8byQ==",
+  "success": true,
+  "projectFilePath": "C:\\src\\OfficerOversight\\MapIt.Server\\MapIt.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebmru\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.3\\microsoft.aspnetcore.spaproxy.8.0.3.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\ebmru\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapIt.Server", "MapIt.Server\MapIt.Server.csproj", "{CE58BBB8-8349-40A4-A626-D9ADAE3C782F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "mapit.client", "mapit.client\mapit.client.esproj", "{E9B20650-E1B3-47FD-AC79-9B9A967867E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE58BBB8-8349-40A4-A626-D9ADAE3C782F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE58BBB8-8349-40A4-A626-D9ADAE3C782F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE58BBB8-8349-40A4-A626-D9ADAE3C782F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE58BBB8-8349-40A4-A626-D9ADAE3C782F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B20650-E1B3-47FD-AC79-9B9A967867E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB2BA43-0A79-4F0F-9C19-8B91B303B2E8}
+	EndGlobalSection
+EndGlobal

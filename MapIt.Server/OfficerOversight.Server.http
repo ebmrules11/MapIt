@@ -1,0 +1,6 @@
+@OfficerOversight.Server_HostAddress = http://localhost:5186
+
+GET {{OfficerOversight.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

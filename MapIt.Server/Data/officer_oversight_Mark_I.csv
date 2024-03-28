@@ -1,0 +1,191 @@
+"id","date","threat_type","flee_status","armed_with","city","county","state","latitude","longitude","location_precision","name","age","gender","race","race_source","was_mental_illness_related","body_camera","agency_ids","year"
+43,2015-01-11,"point","not","gun","South Gate","Los Angeles","CA",33.950769,-118.18265,"not_available","Brian Barbosa",23,"male","H","not_available","False","False","494",2015
+75,2015-01-17,"point","not","gun","Los Angeles","Los Angeles","CA",34.038256,-118.232686,"not_available","Pablo Meza",24,"male","H","not_available","False","False","38",2015
+194,2015-03-01,"attack","not","unarmed","Los Angeles","Los Angeles","CA",34.043131,-118.244634,"not_available","Charly Leundeu Keunang",43,"male","B","not_available","True","True","38",2015
+201,2015-03-05,"flee","car","unarmed","Burbank","Los Angeles","CA",34.150659,-118.344693,"not_available","Sergio Alexander Navas",36,"male","H","not_available","False","False","38",2015
+796,2015-03-11,"threat","not",NA,"Los Angeles","Los Angeles","CA",33.939359,-118.2195876,"not_available","Aaron Valdez",25,"male","H","not_available","False","False","20",2015
+351,2015-03-13,"move","foot","unarmed","Walnut Creek","Los Angeles","CA",33.971236,-118.228991,"not_available","Antonio Perez",32,"male","H","not_available","False","False","20",2015
+241,2015-03-25,"shoot","foot","gun","South Los Angeles","Los Angeles","CA",33.939976,-118.291746,"not_available","Victor Terrazas",28,"male","H","not_available","False","False","20",2015
+250,2015-03-26,"threat","not","knife","Wilmington","Los Angeles","CA",33.793498,-118.271171,"not_available","Adrian Solis",35,"male","H","not_available","True","False","38",2015
+267,2015-04-01,"shoot","not","gun","Hawthorne","Los Angeles","CA",33.901906,-118.337333,"not_available","Robert Washington",37,"male","B","not_available","False","False","3129",2015
+331,2015-04-08,"shoot","foot","gun","Los Angeles","Los Angeles","CA",34.040606,-118.211775,"not_available","Roberto Rodriguez",39,"male","H","not_available","False","False","38",2015
+495,2015-04-21,"threat","not","knife","Los Angeles","Los Angeles","CA",34.072003,-118.204508,"not_available","Luis Martinez",35,"male","H","not_available","True","False","38",2015
+409,2015-04-23,"move","not","unarmed","Long Beach","Los Angeles","CA",33.781475,-118.173635,"not_available","Hector Morejon",19,"male","H","not_available","False","False","519",2015
+429,2015-05-05,"attack","not","unarmed","Venice","Los Angeles","CA",33.987696,-118.472262,"not_available","Brendon Glenn",29,"male","B","not_available","False","True","38",2015
+430,2015-05-05,"attack","not","knife","South El Monte","Los Angeles","CA",34.05356,-118.043956,"not_available","Thong Kien Ma",32,"male","A","not_available","False","False","20",2015
+436,2015-05-07,"attack","car",NA,"Cerritos","Los Angeles","CA",33.873891,-118.050411,"not_available","Nephi Arriguin",21,"male","B","not_available","False","False","20",2015
+491,2015-05-27,"move","not","unarmed","Long Beach","Los Angeles","CA",33.7854079,-118.139309,"not_available","Feras Morad",20,"male","O","not_available","False","False","519",2015
+555,2015-06-21,"threat","not","unarmed","Azusa","Los Angeles","CA",34.129037,-117.900155,"not_available","Adrian Simental",24,"male","H","not_available","True","False","588",2015
+597,2015-07-03,"attack","not","knife","West Covina","Los Angeles","CA",34.024073,-117.893713,"not_available","Cesar A. Limon Juarez",27,"male","H","not_available","False","False","627",2015
+598,2015-07-03,"point","not","gun","Lancaster","Los Angeles","CA",34.671167,-118.1866,"not_available","Arturo Lopez",46,"male","H","not_available","False","False","20",2015
+605,2015-07-05,"flee","not","unarmed","Hawaiian Gardens","Los Angeles","CA",33.833295,-118.070855,"not_available","Johnny Ray Anderson",43,"male","H","not_available","False","False","20",2015
+610,2015-07-06,"attack","other",NA,"Lakewood","Los Angeles","CA",33.857135,-118.124075,"not_available","John Leonard Berry",31,"male","W","not_available","True","False","20",2015
+619,2015-07-06,"attack","not","knife","Los Angeles","Los Angeles","CA",34.3219445,-118.4057039,"not_available","Jason Hendley",29,"male","B","not_available","False","False","38",2015
+627,2015-07-09,"attack","other","other","Los Angeles","Los Angeles","CA",34.0588499,-118.3441923,"not_available","Neil White",38,"male","W","not_available","False","False","38",2015
+645,2015-07-13,"threat","not","knife","Los Angeles","Los Angeles","CA",33.9991424,-118.4720381,"not_available","Jason Davis",41,"male","W","not_available","False","False","38",2015
+674,2015-07-24,"shoot","not","replica","Studio City","Los Angeles","CA",34.143487,-118.397924,"not_available","Seth Raines",44,"male","W","not_available","False","False","38",2015
+691,2015-07-30,"attack","not","blunt_object","Whittier","Los Angeles","CA",33.9722568,-118.0551664,"not_available","Oscar Lotari Romero",47,"male","H","not_available","False","False","20",2015
+721,2015-08-07,"attack","not","knife","Long Beach","Los Angeles","CA",33.8746426,-118.1556208,"not_available","Derrick Lee Hunt",28,"male","B","not_available","False","False","519",2015
+732,2015-08-12,"threat","not","knife","Los Angeles","Los Angeles","CA",34.0087173,-118.3426031,"not_available","Redel Jones",30,"female","B","not_available","False","False","38",2015
+784,2015-08-27,"attack","not","blunt_object","Los Angeles","Los Angeles","CA",34.2048165,-118.4512204,"not_available","Manuel Soriano",29,"male","H","not_available","False","False","38",2015
+879,2015-09-09,"attack","not","knife","El Monte","Los Angeles","CA",34.0785555,-118.0290802,"not_available","William Chau",59,"male","A","not_available","False","False","825",2015
+823,2015-09-10,"point","car","gun","Downey","Los Angeles","CA",33.954832,-118.113869,"not_available","Eddie Tapia",41,"male","H","not_available","False","False","20",2015
+832,2015-09-15,"point","not","gun","Panorama City","Los Angeles","CA",34.2296357,-118.4376413,"not_available","Florencio Chaidez",32,"male","H","not_available","False","True","38",2015
+834,2015-09-15,"shoot","not","gun","Los Angeles","Los Angeles","CA",34.132316,-118.2666882,"not_available","Carlos Wilhelm",39,"male","H","not_available","False","False","38",2015
+871,2015-09-27,"threat","not","knife","Los Angeles","Los Angeles","CA",34.024898,-118.2592009,"not_available","Norma Angelica Guzman",37,"female","H","not_available","True","True","38",2015
+886,2015-10-04,"undetermined","not","blunt_object","Van Nuys","Los Angeles","CA",34.18665,-118.46618,"not_available","James Joseph Byrd",45,"male","W","not_available","False","False","38",2015
+924,2015-10-16,"attack","not","unarmed","Valinda","Los Angeles","CA",34.0312067,-117.9160741,"not_available","Johnny Angel Rangel",27,"male","H","not_available","False","False","20",2015
+934,2015-10-19,"attack","not",NA,"Los Angeles","Los Angeles","CA",33.9347485,-118.2811941,"not_available","Dion Lamont Ramirez",53,"male","B","not_available","False","False","20",2015
+1001,2015-11-09,"threat","not","other","Los Angeles","Los Angeles","CA",34.211696,-118.512026,"not_available","Miguel Cano",35,"male","H","not_available","False","False","38",2015
+1047,2015-12-01,"point","not","gun","Norwalk","Los Angeles","CA",33.9171654,-118.0817418,"not_available","John Anthony Gonzalez",18,"male","H","not_available","False","False","20",2015
+1079,2015-12-12,"point","not","gun","Lynwood","Los Angeles","CA",33.9169225,-118.2094314,"not_available","Nicholas Robertson",28,"male","B","not_available","False","False","20",2015
+1092,2015-12-14,"threat","not","knife","Long Beach","Los Angeles","CA",33.8028977,-118.1888972,"not_available","Mharloun Verdejo Saycon",39,"male","A","not_available","False","False","519",2015
+1105,2015-12-19,"attack","not","undetermined","Los Angeles","Los Angeles","CA",33.842661,-118.306771,"not_available","Ruben Jose Herrera",26,"male","H","not_available","True","False","38",2015
+1106,2015-12-20,"attack","not","gun","Palmdale","Los Angeles","CA",34.571541,-118.044555,"not_available","Leroy Browning",30,"male","B","not_available","False","False","20",2015
+1134,2015-12-29,"undetermined","not","unknown","Rosemead","Los Angeles","CA",34.0728633,-118.0561782,"not_available","Tien Phuong Hua",33,"male","A","not_available","False","False","38",2015
+1162,2016-01-11,"attack","car",NA,"San Fernando","Los Angeles","CA",34.290397,-118.4494678,"not_available","Alan Paul Bartley",56,"male","W","not_available","False","False","1025",2016
+1169,2016-01-14,"move","not","knife","Santa Clarita","Los Angeles","CA",34.4195637,-118.4599348,"not_available","Miguel Hernandez",39,"male","H","not_available","False","False","20",2016
+1172,2016-01-16,"threat","foot","replica","Hollywood Hills","Los Angeles","CA",34.1038296,-118.3583453,"not_available","Alfred Longoria",34,"male","H","not_available","False","False","38",2016
+1171,2016-01-17,"threat","not","knife","North Hills","Los Angeles","CA",34.230149,-118.459862,"not_available","Efrain Herrera Jr.",24,"male","H","not_available","False","False","38",2016
+1240,2016-02-06,"point","car","gun","Los Angeles","Los Angeles","CA",34.063411,-118.2943457,"not_available","Jose Mendez",16,"male","H","not_available","False","True","38",2016
+1261,2016-02-11,"threat","not","blunt_object","Lancaster","Los Angeles","CA",34.6820213,-118.0797459,"not_available","Matthew Quinn",45,"male","W","not_available","False","False","20",2016
+1271,2016-02-14,"threat","not","gun","Los Angeles","Los Angeles","CA",34.0217108,-118.1633746,"not_available","Eduardo Rodriguez",29,"male","H","not_available","False","False","20;38",2016
+1280,2016-02-14,"threat","not","knife","Van Nuys","Los Angeles","CA",34.1959754,-118.4574373,"not_available","Rammy Jaradat",26,"male","W","not_available","False","False","38",2016
+1292,2016-02-21,"threat","not","gun","Inglewood","Los Angeles","CA",33.9616106,-118.3617385,"not_available","Kisha Michael",31,"female","B","not_available","False","False","1113",2016
+1293,2016-02-21,"accident","not","undetermined","Inglewood","Los Angeles","CA",33.9616106,-118.3617385,"not_available","Marquintan Sandlin",32,"male","B","not_available","False","False","1113",2016
+1316,2016-02-24,"attack","not",NA,"Cerritos","Los Angeles","CA",33.8874655,-118.0998234,"not_available","Francisco Garcia",26,"male","H","not_available","False","False","20",2016
+1352,2016-03-10,"threat","foot","gun","Long Beach","Los Angeles","CA",33.8776896,-118.2027059,"not_available","Martin Hurtado",21,"male","H","not_available","False","False","519",2016
+1356,2016-03-13,"point","car",NA,"Glendale","Los Angeles","CA",34.146325,-118.247159,"not_available","Gevork Alachadzhyan",45,"male","W","not_available","True","False","627",2016
+1367,2016-03-16,"move","not","unarmed","Florence","Los Angeles","CA",33.9811937,-118.2411736,"not_available","Cristian Rene Medina",23,"male","H","not_available","True","False","20",2016
+1423,2016-03-30,"point","foot","gun","Los Angeles","Los Angeles","CA",34.015047,-118.1393004,"not_available","Angel Montion",33,"male","W","not_available","False","False","20",2016
+1442,2016-04-06,"attack","not","knife","Sylmar","Los Angeles","CA",34.3076508,-118.4528976,"not_available","Cesar Frias",20,"male","H","not_available","True","False","38",2016
+1452,2016-04-10,"attack","not","knife","Los Angeles","Los Angeles","CA",34.0490485,-118.2256681,"not_available","Arturo Yobani-Torrez Valdez",28,"male","H","not_available","False","False","38",2016
+1508,2016-04-30,"threat","not","knife","Los Angeles","Los Angeles","CA",34.228312,-118.4720466,"not_available","Marion Habana",28,"male","A","not_available","False","True","38",2016
+1522,2016-05-08,"threat","not","replica","Long Beach","Los Angeles","CA",33.7953015,-118.1910731,"not_available","Lionel Gibson",21,"male","B","not_available","False","False","519",2016
+1539,2016-05-13,"shoot","not","gun","Boyle Heights","Los Angeles","CA",34.0261949,-118.2019535,"not_available","Robert Mark Diaz",28,"male","H","not_available","False","True","38",2016
+1838,2016-06-10,"shoot","not","gun","Los Angeles","Los Angeles","CA",33.988995,-118.3329883,"not_available","Keith Bursey Jr.",31,"male","B","not_available","False","False","38",2016
+1616,2016-06-11,"threat","not","knife","Maywood","Los Angeles","CA",33.99442,-118.193266,"not_available","Jesus Duran",31,"male","H","not_available","False","False","20",2016
+1697,2016-07-07,"threat","not","knife","Bell","Los Angeles","CA",33.9708943,-118.1879507,"not_available","Vinson Lee Ramos",37,"male","H","not_available","False","False","1362",2016
+1732,2016-07-25,"shoot","foot","gun","Los Angeles","Los Angeles","CA",33.9348088,-118.2485162,"not_available","Richard Risher Jr.",18,"male","B","not_available","False","False","38",2016
+1744,2016-07-28,"attack","other","unarmed","Compton","Los Angeles","CA",33.9100416,-118.2462313,"not_available","Donnell Thompson Jr.",27,"male","B","not_available","False","False","20",2016
+1745,2016-07-28,"threat","car","gun","City Terrace","Los Angeles","CA",34.0527617,-118.1933479,"not_available","Omar Gonzalez",36,"male","H","not_available","False","True","38",2016
+2148,2016-08-01,"attack","not","undetermined","Santa Ana","Los Angeles","CA",34.1113969,-118.315731,"not_available","Richard Swihart",32,"male","W","not_available","True","False","33",2016
+1760,2016-08-02,"flee","foot","unarmed","Castaic","Los Angeles","CA",34.490674,-118.6176265,"not_available","William Bowers",51,"male","W","not_available","False","False","20",2016
+1776,2016-08-09,"shoot","foot","gun","Los Angeles","Los Angeles","CA",34.0380293,-118.2150343,"not_available","Jesse James Romero",14,"male","H","not_available","False","True","38",2016
+1795,2016-08-16,"threat","foot","gun","Los Angeles","Los Angeles","CA",33.9453225,-118.2806586,"not_available","Kenney Watkins",18,"male","B","not_available","False","False","38",2016
+1799,2016-08-19,"threat","not","gun","East Hollywood","Los Angeles","CA",34.0968772,-118.3056113,"not_available","Marcelo Luna",47,"male","H","not_available","True","False","38",2016
+1816,2016-08-25,"point","foot","gun","Compton","Los Angeles","CA",33.899203,-118.2399461,"not_available","Donta Taylor",31,"male","B","not_available","False","False","20",2016
+1847,2016-09-01,"threat","foot","gun","Florence","Los Angeles","CA",33.9625249,-118.2430852,"not_available","Joshua Quintero",23,"male","H","not_available","False","False","20",2016
+1848,2016-09-01,"threat","not","blunt_object","Huntington Park","Los Angeles","CA",33.9910859,-118.2245394,"not_available",NA,NA,"male","H","not_available","False","False","1433",2016
+1852,2016-09-04,"threat","not","knife","Long Beach","Los Angeles","CA",33.787147,-118.1545508,"not_available","Jose Romero",39,"male","H","not_available","True","False","519",2016
+1925,2016-10-01,"threat","foot","gun","Los Angeles","Los Angeles","CA",33.9390912,-118.3069445,"not_available","Carnell Snell Jr.",18,"male","B","not_available","False","True","38",2016
+1922,2016-10-02,"point","not","replica","Los Angeles","Los Angeles","CA",34.0002195,-118.2499517,"not_available","Daniel Perez",16,"male","H","not_available","True","True","38",2016
+2006,2016-10-31,"attack","car","vehicle","Torrance","Los Angeles","CA",33.8193239,-118.3159177,"not_available","Michelle Lee Shirley",39,"female","B","not_available","True","False","1507",2016
+2007,2016-10-31,"attack","not","knife","Chatsworth","Los Angeles","CA",34.2408833,-118.5689837,"not_available","Jose Armando Cueva",55,"male","H","not_available","False","False","20",2016
+2033,2016-11-08,"shoot","not","gun","Azusa","Los Angeles","CA",34.1280308,-117.9126475,"not_available","Carlos Mendez",45,"male","H","not_available","False","False","588",2016
+2050,2016-11-16,"threat","not","knife","Whittier","Los Angeles","CA",33.9754177,-118.0326615,"not_available","Jose George Anthony Franco",37,"male","H","not_available","False","False","1529",2016
+2065,2016-11-22,"shoot","not","gun","La Mirada","Los Angeles","CA",33.908618,-117.9770593,"not_available","Mark Daniel Sly",45,"male","W","not_available","False","False","20",2016
+2085,2016-11-28,"threat","foot","gun","Los Angeles","Los Angeles","CA",34.0225914,-118.2659818,"not_available","Pablo Renato Cartagena",23,"male","H","not_available","False","False","38",2016
+2130,2016-12-15,"point","not","gun","Hacienda Heights","Los Angeles","CA",33.9789661,-117.9760915,"not_available","Robert James Hess",60,"male","W","not_available","False","False","1571",2016
+2134,2016-12-17,"threat","not","gun","Los Angeles","Los Angeles","CA",34.0215187,-118.1626182,"not_available","Fidel Barrios",33,"male","H","not_available","False","False","20",2016
+2133,2016-12-18,"threat","foot","gun","Los Angeles","Los Angeles","CA",33.9850325,-118.308941,"not_available","Ryan Joseph",20,"male","B","not_available","False","False","38",2016
+2168,2016-12-23,"move","car","vehicle","El Monte","Los Angeles","CA",34.0749181,-118.0350688,"not_available","Jose Sanchez",30,"male",NA,NA,"False","False","825",2016
+2166,2016-12-24,"attack","not","knife","Pico Rivera","Los Angeles","CA",34.0183422,-118.0635066,"not_available","Zhonghua Li",48,"male","A","not_available","True","False","20",2016
+2191,2017-01-04,"shoot","foot","gun","Pomona","Los Angeles","CA",34.0686694,-117.7366552,"not_available","Ruben Randolph",51,"male","B","not_available","False","False","1598",2017
+2207,2017-01-10,"threat","not","knife","Los Angeles","Los Angeles","CA",34.0422525,-118.2630728,"not_available","Michael Rogers",32,"male","W","not_available","False","False","38",2017
+2216,2017-01-15,"point","not","gun","Azusa","Los Angeles","CA",34.1537245,-117.9090693,"not_available","Eric David Anderson",48,"male","W","not_available","False","False","588",2017
+2217,2017-01-15,"threat","not","knife","Long Beach","Los Angeles","CA",33.775248,-118.1211927,"not_available","Sinuon Pream",37,"female","A","not_available","True","False","519",2017
+2232,2017-01-18,"threat","car","knife","Los Angeles","Los Angeles","CA",34.029625,-118.261345,"not_available","Daniel Darnell Stroughter",50,"male","W","not_available","False","False","1617",2017
+2238,2017-01-22,"threat","not","gun","Carson","Los Angeles","CA",33.8280597,-118.2194552,"not_available","Jorge Victor",33,"male","H","not_available","False","False","519",2017
+2278,2017-01-31,"attack","not","knife","Hollywood","Los Angeles","CA",34.0983238,-118.3290113,"not_available","Solomon Picart",37,"male","B","not_available","True","False","38",2017
+2287,2017-02-06,"attack","foot","knife","Santa Monica","Los Angeles","CA",34.0269001,-118.4552335,"not_available","Gerardo Vasquez",52,"male","H","not_available","True","False","266",2017
+2350,2017-02-16,"shoot","foot","gun","Gardena","Los Angeles","CA",33.903325,-118.296829,"not_available","Jimmy Briggs",21,"male","B","not_available","False","False","1661",2017
+2402,2017-03-04,"threat","not","blunt_object","Los Angeles","Los Angeles","CA",34.040924,-118.2573959,"not_available","Alejandro Valencia Mendez",70,"male","H","not_available","False","False","38",2017
+2406,2017-03-07,"threat","not","knife","Ladera Heights","Los Angeles","CA",33.98715,-118.364938,"not_available","Dennis Todd Rogers",41,"male","B","not_available","True","False","20",2017
+2454,2017-03-25,"threat","foot","gun","Los Angeles","Los Angeles","CA",34.0442516,-118.211007,"not_available","Fred Barragan",35,"male","H","not_available","False","False","38",2017
+2496,2017-04-12,"threat","not","gun","Los Angeles","Los Angeles","CA",33.954279,-118.2474696,"not_available","Zelalem Eshetu Ewnetu",28,"male","B","not_available","False","False","20",2017
+2532,2017-04-25,"move","car",NA,"Bellflower","Los Angeles","CA",33.9097651,-118.118413,"not_available","Juan Manuel Avilla",20,"male","H","not_available","False","False","519",2017
+2568,2017-05-08,"shoot","not","gun","Los Angeles","Los Angeles","CA",34.2745478,-118.3054486,"not_available","Anthony David Soderberg",29,"male","W","not_available","False","False","38",2017
+2584,2017-05-15,"point","other","undetermined","Long Beach","Los Angeles","CA",33.8742563,-118.1653871,"not_available",NA,NA,"male",NA,NA,"False","False","494",2017
+2606,2017-05-24,"shoot","not","gun","Los Angeles","Los Angeles","CA",34.0488949,-118.2325813,"not_available","Luis Garcia",25,"male","H","not_available","False","False","20",2017
+2646,2017-06-08,"point","not","gun","Long Beach","Los Angeles","CA",33.8103804,-118.0991245,"not_available","Michele Rice",33,"female","W","not_available","False","False","519",2017
+2691,2017-06-22,"accident","not","unarmed","Palmdale","Los Angeles","CA",34.5815756,-118.1118813,"not_available","Armando Garcia-Muro",17,"male","H","not_available","False","False","20",2017
+2720,2017-06-29,"point","not","replica","Burbank","Los Angeles","CA",34.189927,-118.322223,"not_available","Marco Cardoza",41,"male","H","not_available","False","False","1793",2017
+2778,2017-07-15,"threat","foot","gun","Los Angeles","Los Angeles","CA",34.2591035,-118.4281016,"not_available","Gerber Dieguez",29,"male","H","not_available","False","False","38",2017
+2816,2017-07-27,"threat","not","gun","Los Angeles","Los Angeles","CA",34.1015965,-118.3333515,"not_available","Jerauld Phillip Hammond II",46,"male","W","not_available","False","False","38",2017
+2856,2017-08-10,"shoot","not","gun","Los Angeles","Los Angeles","CA",34.0620943,-118.5016485,"not_available","Eric Bogart",49,"male","W","not_available","False","False","38",2017
+2893,2017-08-22,"threat","not","gun","Los Angeles","Los Angeles","CA",34.1706309,-118.527294,"not_available","Konstantin Morozov",48,"male","W","not_available","False","False","38",2017
+2932,2017-09-06,"move","not","unarmed","Los Angeles","Los Angeles","CA",34.0502637,-118.2469586,"not_available","Timothy Elam",42,"male","W","not_available","False","False","266",2017
+2947,2017-09-11,"point","not","replica","Bassett","Los Angeles","CA",34.0627452,-117.9770214,"not_available","Vincent Edward Hernandez Jr",39,"male","H","not_available","False","False","20",2017
+2958,2017-09-17,"threat","not","knife","Los Angeles","Los Angeles","CA",34.0288858,-118.2129616,"not_available","Eric Alvarez",40,"male","H","not_available","False","False","266",2017
+3006,2017-10-08,"threat","not","knife","San Fernando","Los Angeles","CA",34.2869982,-118.4428689,"not_available","Albert Garcia",58,"male","H","not_available","False","False","1025",2017
+3035,2017-10-14,"move","car","undetermined","Torrance","Los Angeles","CA",33.8229668,-118.3377021,"not_available","Michael David Lopez",44,"male","H","not_available","False","False","1507",2017
+3142,2017-11-15,"shoot","car","gun","Van Nuys","Los Angeles","CA",34.2012771,-118.4574675,"not_available","Oscar Anaya",22,"male","H","not_available","False","False","38",2017
+3158,2017-11-26,"threat","not","knife","Covina","Los Angeles","CA",34.093495,-117.8642571,"not_available","Daniel Navarro",22,"male","H","not_available","False","False","627",2017
+3165,2017-11-27,"shoot","not","gun","South Gate","Los Angeles","CA",33.9510482,-118.2229757,"not_available","Christian Chavez",40,"male","H","not_available","True","False","494",2017
+3175,2017-11-30,"threat","car","gun","North Hollywood","Los Angeles","CA",34.1984703,-118.4073595,"not_available","Juan Andres Barillas",37,"male","H","not_available","False","False","38",2017
+3195,2017-12-10,"attack","not","knife","Artesia","Los Angeles","CA",33.8611515,-118.072363,"not_available","Frank Dario Lopez",48,"male","H","clip","False","False","20",2017
+3234,2017-12-23,"threat","foot","blunt_object","Los Angeles","Los Angeles","CA",34.2165624,-118.5885317,"not_available","Jesse Daniel Murillo",32,"male","H","clip","False","False","38",2017
+3260,2017-12-30,"threat","not","gun","Los Angeles","Los Angeles","CA",34.1957481,-118.5666261,"not_available","Oscar Sandoval",39,"male","H","clip","False","False","38",2017
+3293,2018-01-05,"threat","not","gun","Long Beach","Los Angeles","CA",33.803251,-118.1427877,"not_available","Andy Vo",35,"male","A","not_available","False","False","519",2018
+3299,2018-01-08,"threat",NA,"gun","Los Angeles","Los Angeles","CA",33.9746957,-118.2739535,"not_available","Primitivo Macias-Rodriguez",46,"male","H","not_available","False","False","38",2018
+3382,2018-02-04,"move","foot","gun","Los Angeles","Los Angeles","CA",33.9388238,-118.296237,"not_available","Anthony Jacob Weber",16,"male","B","not_available","False","False","20",2018
+3389,2018-02-06,"threat","car",NA,"Los Angeles","Los Angeles","CA",34.0333275,-118.1586228,"not_available","Cesar Bautista",37,"male","H","not_available","False","False","20",2018
+3445,2018-02-25,"shoot","not","gun","Los Angeles","Los Angeles","CA",33.9450621,-118.3162603,"not_available","Santos Nunez-Garcia",30,"male","H","not_available","False","False","38",2018
+3443,2018-02-26,"threat","not","knife","Los Angeles","Los Angeles","CA",34.2354773,-118.4569509,"not_available","Orbel Nazarians",22,"male","W","not_available","True","True","38",2018
+3479,2018-03-07,"point","not","gun","Long Beach","Los Angeles","CA",33.7670914,-118.1951409,"not_available","Donald McFarlane",53,"male","W","not_available","False","False","519",2018
+3599,2018-04-09,"flee","foot","gun","Reseda","Los Angeles","CA",34.1888535,-118.5622442,"not_available","Daniel Joseph Carver",29,"male","W","not_available","False","True","38",2018
+3602,2018-04-10,"threat","foot","knife","Baldwin Hills","Los Angeles","CA",34.0103667,-118.339346,"not_available","Grechario Mack",30,"male","B","not_available","True","False","38",2018
+3606,2018-04-11,"shoot","not","gun","Gardena","Los Angeles","CA",33.9164122,-118.3177876,"not_available","Kenneth Ross Jr.",25,"male","B","not_available","False","False","1661",2018
+3721,2018-05-30,"attack","foot","blunt_object","Los Angeles","Los Angeles","CA",34.2682707,-118.4301447,"not_available","Bryan Rodriguez",29,"male","H","not_available","False","True","38",2018
+3732,2018-06-01,"threat","not","knife","Torrance","Los Angeles","CA",33.8498903,-118.3515503,"not_available",NA,NA,"male","W","not_available","False","False","1507",2018
+3784,2018-06-16,"attack","not","knife","Van Nuys","Los Angeles","CA",34.1866813,-118.4443701,"not_available","Guillermo Perez",32,"male","H","clip","True","False","38",2018
+3844,2018-06-22,"point","not","replica","Inglewood","Los Angeles","CA",33.9630937,-118.3548695,"not_available",NA,NA,"male",NA,NA,"True","False","1113",2018
+3813,2018-06-29,"undetermined","car","unknown","Pomona","Los Angeles","CA",34.0463287,-117.8120212,"not_available","Rodney Lee Hunter",27,"male","B","not_available","False","False","2229;1598",2018
+10102,2020-04-19,"move","foot","unarmed","Lancaster","Los Angeles","CA",34.7040170402767,-118.149478133722,"address","Richard Sean Lugo Jr.",36,"male","W","clip","False","False","20",2020
+6713,2021-03-19,"attack","foot","knife","Los Angeles","Los Angeles","CA",34.0568984,-118.2736132,"not_available","Samuel Ponce",45,"male","H","public_record","True","True","38",2021
+7046,2021-07-15,"point","not","replica","Los Angeles","Los Angeles","CA",34.1014188,-118.3362603,"not_available","Matthew James Sova",48,"male","W","public_record","False","True","38",2021
+7284,2021-10-31,"threat",NA,"knife","Van Nuys","Los Angeles","CA",34.1866088443373,-118.433542247384,"address","Melkon Michaelidis",46,"male","W","clip","True","False","38",2021
+10101,2021-11-21,"shoot","not","gun","Los Angeles","Los Angeles","CA",33.9277975750475,-118.237425379029,"address","John Anthony Holenbeck",28,"male","H","clip","False","False","20",2021
+8205,2022-07-05,"threat",NA,"gun","Wilmington","Los Angeles","CA",33.7795621195195,-118.269002420511,"block","Reginald Keith Humphrey",31,"male","B","clip","False","False","38",2022
+8281,2022-07-22,"threat","foot","gun","Los Angeles","Los Angeles","CA",34.0621331390833,-118.176139323337,"intersection","Lino Soltero",39,"male","H","clip","False","False","38",2022
+8285,2022-07-27,"point",NA,"replica","Los Angeles","Los Angeles","CA",34.0716371406531,-118.222421814785,"intersection","Marcos Maldonado",31,"male","H","clip","False","False","38",2022
+8341,2022-08-17,"threat","not","knife","Los Angeles","Los Angeles","CA",34.2005995194903,-118.51128707073,"block","Christian Arriola Gomez",24,"male","H","photo","False","True","38",2022
+8749,2022-12-18,"flee","other","unarmed","Culver City","Los Angeles","CA",34.0235628374013,-118.394883590463,"intersection","Guillermo DeJesus Medina",39,"male","H","clip","True","True","2279",2022
+8768,2022-12-21,"point","car","gun","Lancaster","Los Angeles","CA",34.7043176984686,-118.08465792413,"block","Fernando Fierro",44,"male","H","public_record","False","False","20",2022
+10100,2022-12-22,"shoot","not","gun","Gardena","Los Angeles","CA",33.9000578688569,-118.309957344073,"block","Willie Pendleton",61,"male","B","public_record","False","False","20",2022
+8835,2023-01-02,"point","not","knife","Los Angeles","Los Angeles","CA",34.0608677953007,-118.261560598481,"block","Takar Smith",45,"male","B","public_record","True","True","38",2023
+8818,2023-01-03,"threat","not","blunt_object","Los Angeles","Los Angeles","CA",34.0176610712081,-118.255375385846,"block","Oscar Sanchez",35,"male","H","photo","False","True","38",2023
+8833,2023-01-08,"threat","not","knife",NA,"Los Angeles","CA",34.5843639717088,-118.358741574678,"intersection","Alon Oneil Foster",44,"male","B","public_record","False","False","20",2023
+8855,2023-01-11,"attack",NA,"unarmed","Valencia","Los Angeles","CA",34.4134575367845,-118.551825961005,"block","Christopher Lee Mercurio",50,"male","W","public_record","False","False","20",2023
+8887,2023-01-22,"threat","foot","knife","Altadena","Los Angeles","CA",34.1818527115442,-118.152246826821,"block","Charles Towns",47,"male","B","public_record","False","True","20",2023
+8897,2023-01-26,"point","not","gun","Maywood","Los Angeles","CA",33.9834845026234,-118.187223491687,"block","Miguel Lopez",70,"male","H","public_record","False","False","20",2023
+8904,2023-01-26,"attack","not","knife","Los Angeles","Los Angeles","CA",33.9891203588664,-118.311448340725,"block","Anthony Lowe Jr.",36,"male","B","clip","True","False","1433",2023
+8950,2023-02-10,"threat","not","knife","Palmdale","Los Angeles","CA",34.5627421563023,-118.087426361187,"block","Everett Byram",34,"male","W","photo","False","False","20",2023
+8974,2023-02-22,"point","not","replica","Los Angeles","Los Angeles","CA",34.076511777126,-118.283922703736,"intersection","Mariela Cardenas",42,"female","H","public_record","False","False","38",2023
+9088,2023-04-05,"attack",NA,"unarmed","Vernon","Los Angeles","CA",33.994030464729,-118.183625460554,"block","Victor Eduardo Nava",24,"male","H","clip","False","False","494",2023
+9188,2023-05-05,"threat","other","gun","Los Angeles","Los Angeles","CA",34.031836481812,-118.259425100249,"intersection","Hector Macias",32,"male","H","public_record","False","False","38",2023
+9259,2023-05-27,"point","not","knife","Burbank","Los Angeles","CA",34.1713142644379,-118.302912049017,"block","Ruben Ramos",47,"male","H","public_record","False","True","1792",2023
+9333,2023-06-19,"threat",NA,"gun","Diamond Bar","Los Angeles","CA",33.9731387681944,-117.840252933135,"block","Benjamin Chin",30,"male","A","public_record","False","True","20",2023
+9331,2023-06-28,"shoot","not","gun","Los Angeles","Los Angeles","CA",33.9745635330874,-118.308967607443,"intersection","Michael Edward Meadows",45,"male","B","clip","False","True","38",2023
+9371,2023-07-04,"threat","foot","gun","Santa Clarita","Los Angeles","CA",34.3779676502582,-118.524091079511,"block","Greg Timothy Covey Jr.",24,"male","H","public_record","False","False","20",2023
+9408,2023-07-09,"threat","not","blunt_object","Los Angeles","Los Angeles","CA",34.1724948973221,-118.53607272109,"intersection","Jessica Brown",35,"female","B","clip","False","False","38",2023
+9375,2023-07-20,"point","not","knife","Los Angeles","Los Angeles","CA",34.0386678908696,-118.243873451644,"block","Billy Anthony Stribling",56,"male","B","public_record","False","False","38",2023
+9389,2023-07-25,"threat","not","knife","Los Angeles","Los Angeles","CA",34.2084896272274,-118.536088928836,"intersection","Meyvic Arreola",44,"male","H","public_record","False","False","38",2023
+9418,2023-08-07,NA,NA,"undetermined","Los Angeles","Los Angeles","CA",33.8751921725854,-118.248230519258,"block","Arturo Cernas",34,"male","H","public_record","False","False","20",2023
+9466,2023-08-13,"point","not","replica","Los Angeles","Los Angeles","CA",33.9811406635954,-118.287044468928,"block","Olban Antonio Perdomo Rodas",25,"male","H","clip","False","False","38",2023
+9465,2023-08-15,"point",NA,"gun","Fontana","Los Angeles","CA",34.1451860525905,-117.442683684656,"poi_small","Alejandro Diaz",45,"male",NA,NA,"True","False","45",2023
+9599,2023-08-27,"threat","foot","knife","Los Angeles","Los Angeles","CA",34.2258221540074,-118.524093505859,"block","Angel Ledesma",24,"male","H","clip","False","True","38",2023
+9575,2023-09-04,"point","not","knife","Hacienda Heights","Los Angeles","CA",33.9843953444154,-117.945986983492,"block","Robert Boozer",42,"male","W","clip","False","True","20",2023
+9556,2023-09-13,"attack","not","knife","Los Angeles","Los Angeles","CA",34.0490439673232,-118.292552514164,"block","Carlos De Anda",35,"male","H","clip","False","True","38",2023
+9743,2023-09-21,"attack","not","knife","Inglewood","Los Angeles","CA",33.9453920371345,-118.354759353065,"block","Ivan Solis Mora",34,"male","H","clip","True","False","1113",2023
+9783,2023-10-07,"threat","not","gun","Canoga Park","Los Angeles","CA",34.2010919143803,-118.593555132902,"address","Oscar Vasquez Lopez",44,"male","H","clip","False","False","38",2023
+9553,2023-11-01,"move","foot","blunt_object;knife","Calabasas","Los Angeles","CA",34.1573705710947,-118.6394938119,"address","Benjamin Pritchard",35,"male","W","clip","False","False","38",2023
+9597,2023-11-08,"attack",NA,"knife","Long Beach","Los Angeles","CA",33.8804558645948,-118.194875820732,"block","Eriberto Penaloza",38,"male","H","clip","False","False","519",2023
+9856,2023-11-13,"threat",NA,"gun","Los Angeles","Los Angeles","CA",34.0633801298209,-118.365550173391,"block",NA,NA,"male",NA,NA,"False","False","1981",2023
+9827,2023-11-19,"attack",NA,"other","Los Angeles","Los Angeles","CA",34.7040545700164,-118.129205139929,"road","Jesse Dominguez",33,"male","H","photo","True","False","266",2023
+9948,2023-12-01,"point","not","gun","Chatsworth","Los Angeles","CA",34.2457469697034,-118.573655325188,"address","Lisa Davis",63,"female","W","photo","False","True","38",2023
+9949,2023-12-04,"threat","not","knife","Lancaster","Los Angeles","CA",34.6895727944741,-118.093914941525,"block","Niani Finlayson",27,"female","B","clip","False","True","20",2023
+10043,2024-01-13,"point",NA,"gun","Los Angeles","Los Angeles","CA",33.9747701530345,-118.252000317711,"intersection","Noor Sharif Ramsis",38,"male",NA,NA,"False","False","20",2024
+10125,2024-02-03,"move","not","blunt_object","Los Angeles","Los Angeles","CA",34.0411550334694,-118.243579647554,"block","Jason Lee Maccani",36,"male","W","clip","False","False","38",2024
+10130,2024-02-06,"attack","not","knife","Lancaster","Los Angeles","CA",34.6726536913115,-118.165835088979,"address","Jonathan Foster",38,"male","W","public_record","False","False","20",2024

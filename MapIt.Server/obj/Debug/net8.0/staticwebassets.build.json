@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "IYBdd8XrQ79aoEt2eCYWi9RhdvSBfibD5SjYaig8+jk=",
+  "Source": "MapIt.Server",
+  "BasePath": "_content/MapIt.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\src\\OfficerOversight\\mapit.client\\mapit.client.esproj",
+      "Version": 2,
+      "Source": "mapit.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

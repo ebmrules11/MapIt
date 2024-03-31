@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\src\\OfficerOversight\\MapIt.Server\\..\\mapit.client",
+"WorkingDirectory": "C:\\src\\MapIt\\MapIt.Server\\..\\mapit.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

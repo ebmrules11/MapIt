@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\OfficerOversight\\MapIt.Server\\MapIt.Server.csproj",
+      "projectUniqueName": "C:\\src\\MapIt\\MapIt.Server\\MapIt.Server.csproj",
       "projectName": "MapIt.Server",
-      "projectPath": "C:\\src\\OfficerOversight\\MapIt.Server\\MapIt.Server.csproj",
+      "projectPath": "C:\\src\\MapIt\\MapIt.Server\\MapIt.Server.csproj",
       "packagesPath": "C:\\Users\\ebmru\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\OfficerOversight\\MapIt.Server\\obj\\",
+      "outputPath": "C:\\src\\MapIt\\MapIt.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

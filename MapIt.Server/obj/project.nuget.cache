@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c5PNKxRrVlFfbnhanMrBCz0PqGrcVCbS4DxJ41WRqm7m/OfczTFPZNUaHIRdEcXX6Pxs9iGA4HJis2xNnm8byQ==",
+  "dgSpecHash": "9rZR2rnX7MuDaom+SnPJT8RoqSWVh9WcgzKevtu3h4k8iV/ei9U2RjdSDOgSVTkYaOhmTYvY30pzjShYHtYmwQ==",
   "success": true,
-  "projectFilePath": "C:\\src\\OfficerOversight\\MapIt.Server\\MapIt.Server.csproj",
+  "projectFilePath": "C:\\src\\MapIt\\MapIt.Server\\MapIt.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ebmru\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.3\\microsoft.aspnetcore.spaproxy.8.0.3.nupkg.sha512",
     "C:\\Users\\ebmru\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

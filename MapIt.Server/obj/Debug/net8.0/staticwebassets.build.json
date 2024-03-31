@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "IYBdd8XrQ79aoEt2eCYWi9RhdvSBfibD5SjYaig8+jk=",
+  "Hash": "FVljqkV9S/N7NN4yhV+yZDCAPwhoCUY6bj0wrcdNdRA=",
   "Source": "MapIt.Server",
   "BasePath": "_content/MapIt.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\src\\OfficerOversight\\mapit.client\\mapit.client.esproj",
+      "Identity": "C:\\src\\MapIt\\mapit.client\\mapit.client.esproj",
       "Version": 2,
       "Source": "mapit.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

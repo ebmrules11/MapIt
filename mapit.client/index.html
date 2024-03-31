@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map It!</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Base styles */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 95%; 
+            display: flex;
+            flex-direction: column; /* Ensures flex children (header, main, footer) are laid out vertically */
+        }
+
+        /* Header styles */
+        header {
+            background-color: darkslategray;
+            color: #ffffff;
+            padding: 0.5rem;
+            width: 100%; /* Ensure the header spans the full width */
+        }
+
+        /* Container styles for the header and footer */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        
+        .nav-links ul {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+            .nav-links li a:hover {
+                background-color: #009688;
+            }
+
+
+        /* Footer styles */
+        footer {
+            background-color: darkslategray;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%; /* Ensure the footer spans the full width */
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav-links ul {
+                flex-direction: column;
+            }
+
+            .nav-links li {
+                margin-top: 0.5rem;
+            }
+
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        main {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: stretch; 
+            width: 100%;
+            padding: 1rem;
+        }
+
+        /* Style for the map and upload container */
+        .map-upload-container {
+            display: flex;
+            height: 100%;
+            width: 80%;
+        }
+
+        #map {
+            flex: 3; 
+            height: calc(100% - 2rem); 
+            width: auto; 
+            align-content: center
+        }
+
+        .upload-box {
+            flex: 1; /* Upload box takes less space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 1rem;
+            border-left: 2px solid #ccc; /* Add a separator line */
+        }
+
+            .upload-box h2 {
+                text-align: left;
+            }
+            .upload-box input[type="file"] {
+                margin: 1rem 0;
+            }
+
+        /* Footer styles ... */
+
+        @media screen and (max-width: 768px) {
+            .map-upload-container {
+                flex-direction: column;
+            }
+
+            #map, .upload-box {
+                width: 100%; /* On smaller screens, stack them */
+                height: auto; /* Adjust height for stacked layout */
+            }
+
+            .upload-box {
+                text-align: left;
+                border-top: 1px solid #ccc; /* Separator line at the top instead */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Map It!</h1>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="map-upload-container">
+            <div id="root">
+                <div id="map" style="height: 100%;">
+                    <!-- Map content here -->
+                </div>
+            </div>
+            <script type="module" src="/src/main.jsx"></script>
+            <div class="upload-box">
+                <h2>Upload Data!</h2>
+                <input type="file" id="excelFile" name="excelFile" accept=".xlsx, .xls" />
+            </div>
+        </div>
+        <script type="module" src="/src/main.jsx"></script>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Map It! All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

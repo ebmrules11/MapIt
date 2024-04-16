@@ -1,2 +1,0 @@
-C:\src\OfficerOversight\mapit.client\obj\Debug\mapit.client.esproj.CoreCompileInputs.cache
-C:\src\MapIt\mapit.client\obj\Debug\mapit.client.esproj.CoreCompileInputs.cache

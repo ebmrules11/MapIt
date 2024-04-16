@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import MapComponent from './components/MapComponent';
+import ExcelUpload from './components/ExcelUpload';
 
 function App() {
     const [mapPins, setMapPins] = useState([]); // State variable to store location data
@@ -16,8 +17,9 @@ function App() {
     }
 
     return (
-        <div>
-            <MapComponent pins={mapPins} />
+        <div className="app-container">
+            <MapComponent className="map-component" pins={mapPins} />
+            <ExcelUpload className="excel-upload" />
         </div>
     );
 }

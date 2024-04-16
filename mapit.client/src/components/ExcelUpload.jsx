@@ -63,11 +63,6 @@ class ExcelUpload extends React.Component {
     renderColumnDescriptions = () => {
         const { columnNames, selectedLatitude, selectedLongitude, columnDescriptions } = this.state;
 
-        const wrapperStyle = {
-            columns: '2 300px', // Creates a multi-column layout where each column is at least 300px wide
-            maxWidth: '100%',
-        };
-
         const inputStyle = {
             padding: '8px',
             margin: '5px 0',

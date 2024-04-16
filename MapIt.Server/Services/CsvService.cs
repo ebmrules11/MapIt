@@ -1,11 +1,13 @@
-﻿using MapIt.Server.Models;
+﻿using ClosedXML.Excel;
+using MapIt.Server.Interfaces;
+using MapIt.Server.Models;
 using System.Globalization;
 
 namespace MapIt.Server.Services
 {
-    public class CsvService
+    public class CsvService : ICsvService
     {
-        public static Dictionary<string, Location> ReadCsvToDictionary(string filePath)
+        public Dictionary<string, Location> ReadCsvToDictionary(string filePath)
             {
                 var dictionary = new Dictionary<string, Location>();
 
@@ -94,5 +96,47 @@ namespace MapIt.Server.Services
                 return dictionary;
             }
 
+        public List<string> GetColumnNames(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                throw new ArgumentException("File is null or empty.");
+
+            var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
+
+            if (extension != ".xlsx" && extension != ".xls" && extension != ".csv")
+                throw new ArgumentException("File format not supported.");
+
+            var columns = new List<string>();
+            using (var stream = new MemoryStream())
+            {
+                file.CopyTo(stream);
+                stream.Position = 0;
+
+                if (extension == ".csv")
+                {
+                    using (var reader = new StreamReader(stream))
+                    {
+                        var header = reader.ReadLine();
+                        if (header != null)
+                        {
+                            columns = header.Split(',').ToList();
+                        }
+                    }
+                }
+                else  // For .xlsx and .xls
+                {
+                    using (var workbook = new XLWorkbook(stream))
+                    {
+                        var worksheet = workbook.Worksheets.First();
+                        var firstRow = worksheet.FirstRowUsed();
+                        foreach (var cell in firstRow.CellsUsed())
+                        {
+                            columns.Add(cell.Value.ToString());
+                        }
+                    }
+                }
+            }
+            return columns;
+        }
     }
 }

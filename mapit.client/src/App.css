@@ -17,3 +17,18 @@ th, td {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.app-container {
+    display: flex; /* This enables Flexbox */
+    align-items: flex-start; /* This will make sure that both child elements have the same height */
+    height: 100%; 
+}
+
+/* If you want the MapComponent to take more space, you can add a specific class or directly target it */
+.map-component {
+    flex: 2; /* Takes twice as much space as the ExcelUpload component */
+}
+
+.excel-upload {
+    flex: 1; /* Takes the remaining space */
+}

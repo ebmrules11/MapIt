@@ -1,0 +1,15 @@
+.event-preview {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    max-width: 300px;
+    font-size: 14px;
+    position: absolute; 
+    z-index: 100;
+}
+
+    .event-preview h3 {
+        margin-top: 0;
+    }

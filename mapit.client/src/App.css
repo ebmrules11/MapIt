@@ -1,34 +1,52 @@
-﻿#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+﻿.app-container {
+    display: flex;    
+    justify-content: space-between;
+    gap: 1rem;
 }
 
-tr:nth-child(even) {
-    background: #F2F2F2;
-}
-
-tr:nth-child(odd) {
-    background: #FFF;
-}
-
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.app-container {
-    display: flex; /* This enables Flexbox */
-    align-items: flex-start; /* This will make sure that both child elements have the same height */
-    height: 100%; 
-}
-
-/* If you want the MapComponent to take more space, you can add a specific class or directly target it */
-.map-component {
-    flex: 2; /* Takes twice as much space as the ExcelUpload component */
+.map-container {
+    flex: 1;
+    margin-right: 1rem;
 }
 
 .excel-upload {
-    flex: 1; /* Takes the remaining space */
+    flex: 0 0 350px;
+    display: flex;    
+    flex-direction: column;    
+    padding: 1rem;    
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    .excel-upload label,
+    .excel-upload input,
+    .excel-upload button {
+        margin-bottom: 0.5rem;    }
+
+    .excel-upload button {
+        padding: 0.25rem 0.5rem;        
+        background-color: #f44336;
+        color: white;        
+        border: none;        
+        border-radius: 4px;        
+        cursor: pointer;    }
+
+        .excel-upload button:hover {
+            background-color: #d32f2f;        }
+
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;        
+        align-items: stretch;
+    }
+
+    .map-container {
+        order: 2;
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+
+    .excel-upload {
+        order: 1;
+    }
 }

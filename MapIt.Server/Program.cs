@@ -3,8 +3,6 @@ using MapIt.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICsvService, CsvService>();
 
@@ -15,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("https://localhost:5173") // Replace with your React app's URL
+        builder => builder.WithOrigins("https://localhost:5173")
         .AllowAnyMethod()
         .AllowAnyHeader());
 });

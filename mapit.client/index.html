@@ -7,24 +7,21 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Base styles */
         html, body {
             margin: 0;
             padding: 0;
             height: 95%; 
             display: flex;
-            flex-direction: column; /* Ensures flex children (header, main, footer) are laid out vertically */
+            flex-direction: column;
         }
 
-        /* Header styles */
         header {
             background-color: darkslategray;
             color: #ffffff;
             padding: 0.5rem;
-            width: 100%; /* Ensure the header spans the full width */
+            width: 100%;
         }
 
-        /* Container styles for the header and footer */
         .container {
             max-width: 1200px;
             margin: auto;
@@ -51,14 +48,12 @@
                 background-color: #009688;
             }
 
-
-        /* Footer styles */
         footer {
             background-color: darkslategray;
             color: white;
             text-align: center;
             padding: 1rem;
-            width: 100%; /* Ensure the footer spans the full width */
+            width: 100%;
         }
 
         @media screen and (max-width: 768px) {
@@ -84,28 +79,29 @@
             padding: 1rem;
         }
 
-        /* Style for the map and upload container */
         .map-upload-container {
             display: flex;
             height: 100%;
             width: 80%;
+            justify-content: center;
         }
 
         #map {
             flex: 3; 
             height: calc(100% - 2rem); 
             width: auto; 
-            align-content: center
+            align-content: center;
         }
 
         .upload-box {
-            flex: 1; /* Upload box takes less space */
+            flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
             padding: 1rem;
-            border-left: 2px solid #ccc; /* Add a separator line */
+            border-left: 2px solid #ccc; 
+            justify-content: center;
         }
 
             .upload-box h2 {
@@ -114,8 +110,6 @@
             .upload-box input[type="file"] {
                 margin: 1rem 0;
             }
-
-        /* Footer styles ... */
 
         @media screen and (max-width: 768px) {
             .map-upload-container {
@@ -129,7 +123,7 @@
 
             .upload-box {
                 text-align: left;
-                border-top: 1px solid #ccc; /* Separator line at the top instead */
+                border-top: 1px solid #ccc;
             }
         }
     </style>
@@ -150,7 +144,6 @@
         <div class="map-upload-container">
             <div id="root">
                 <div id="map" style="height: 100%;">
-                    <!-- Map content here -->
                 </div>
             </div>
             <script type="module" src="/src/main.jsx"></script>

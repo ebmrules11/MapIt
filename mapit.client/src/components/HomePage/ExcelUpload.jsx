@@ -1,4 +1,6 @@
 import React from 'react';
+import './ExcelUpload.css';
+import EventPreview from './EventPreview';
 
 class ExcelUpload extends React.Component {
     state = {
@@ -6,7 +8,8 @@ class ExcelUpload extends React.Component {
         selectedLatitude: '',
         selectedLongitude: '',
         columnDescriptions: {},
-        latLongSubmitted: false
+        latLongSubmitted: false,
+        descriptionsSubmitted: false,
     };
 
     handleSubmit = (event) => {
@@ -48,7 +51,6 @@ class ExcelUpload extends React.Component {
     };
 
     handleSelectionSubmit = () => {
-        // Here you would typically send the selections to the backend or process them further
         console.log('Selected Latitude Column:', this.state.selectedLatitude);
         console.log('Selected Longitude Column:', this.state.selectedLongitude);
         this.setState({ latLongSubmitted: true }); // Set to true when lat/long are submitted
@@ -56,78 +58,77 @@ class ExcelUpload extends React.Component {
 
     handleDescriptionSubmit = () => {
         console.log('Column Descriptions:', this.state.columnDescriptions);
-        // TODO: Handle the column descriptions, such as sending them to a backend service
+        this.setState({ descriptionsSubmitted: true }); // Update the state to show the event preview
     };
 
 
     renderColumnDescriptions = () => {
-        const { columnNames, selectedLatitude, selectedLongitude, columnDescriptions } = this.state;
+        const { columnNames, selectedLatitude, selectedLongitude, columnDescriptions } = this.state
 
-        const inputStyle = {
-            padding: '8px',
-            margin: '5px 0',
-            border: '1px solid #ccc',
-            borderRadius: '4px',
-            width: 'calc(100% - 10px)', // Full width minus margin
-            boxSizing: 'border-box', // Border included in width
-        };
-
-        const labelStyle = {
-            display: 'block',
-            margin: '10px 0 5px 0',
-            fontWeight: 'bold',
-        };
-
-        const divStyle = {
-            marginBottom: '15px',
-            columns: '2 300px', // Creates a multi-column layout where each column is at least 300px wide
-            maxWidth: '100%',
+        const removeColumn = (columnName) => {
+            // Filter out the column to remove
+            const updatedColumnNames = columnNames.filter(name => name !== columnName);
+            // Also remove the description of the column
+            const updatedColumnDescriptions = { ...columnDescriptions };
+            delete updatedColumnDescriptions[columnName];
+            // Update the state
+            this.setState({ columnNames: updatedColumnNames, columnDescriptions: updatedColumnDescriptions });
         };
 
         return columnNames
             .filter(name => name !== selectedLatitude && name !== selectedLongitude)
             .map(name => (
-                <div key={name} style={divStyle}>
-                    <label htmlFor={`desc-${name}`} style={labelStyle}>
-                        {`Description for ${name}:`}
+                <div key={name} className="description-item">
+                    <label htmlFor={`desc-${name}`} className="description-label">
+                        Description for "{name}":
                     </label>
-                    <input
-                        type="text"
-                        id={`desc-${name}`}
-                        name={name}
-                        value={columnDescriptions[name] || ''}
-                        onChange={this.handleDescriptionChange}
-                        style={inputStyle}
-                    />
+                    <div className="description-input-container">
+                        <input
+                            type="text"
+                            id={`desc-${name}`}
+                            name={name}
+                            value={columnDescriptions[name] || ''}
+                            onChange={this.handleDescriptionChange}
+                            className="description-input"
+                        />
+                        <button
+                            type="button"
+                            onClick={() => removeColumn(name)}
+                            className="remove-button"
+                        >
+                            Remove
+                        </button>
+                    </div>
                 </div>
             ));
     };
-
 
     render() {
         return (
             <div className="upload-box">
                 <h2>Upload Excel File</h2>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit} className="upload-form">
                     <input
                         type="file"
-                        ref={(input) => {
-                            this.fileInput = input;
-                        }}
+                        ref={(input) => { this.fileInput = input; }}
                         accept=".xlsx, .xls, .csv"
+                        className="file-input"
                     />
-                    <button type="submit">Upload</button>
+                    <button type="submit" className="general-button upload-button">Upload</button>
                 </form>
 
                 {this.state.columnNames.length > 0 && (
-                    <div>
-                        <div>
-                            <label htmlFor="latitude-select">Please Select The Latitude Column: </label>
+                    <div className="selection-area">
+                        <div className="selection-group">
+                            <label htmlFor="latitude-select" className="selection-label">
+                                Please Select The Latitude Column:
+                            </label>
                             <select
                                 id="latitude-select"
                                 name="selectedLatitude"
                                 value={this.state.selectedLatitude}
                                 onChange={this.handleColumnSelect}
+                                className="selection-select"
                             >
                                 <option value="">--Please choose an option--</option>
                                 {this.state.columnNames.map((name, index) => (
@@ -137,13 +138,16 @@ class ExcelUpload extends React.Component {
                                 ))}
                             </select>
                         </div>
-                        <div>
-                            <label htmlFor="longitude-select">Please Select The Longitude Column: </label>
+                        <div className="selection-group">
+                            <label htmlFor="longitude-select" className="selection-label">
+                                Please Select The Longitude Column:
+                            </label>
                             <select
                                 id="longitude-select"
                                 name="selectedLongitude"
                                 value={this.state.selectedLongitude}
                                 onChange={this.handleColumnSelect}
+                                className="selection-select"
                             >
                                 <option value="">--Please choose an option--</option>
                                 {this.state.columnNames.map((name, index) => (
@@ -152,18 +156,23 @@ class ExcelUpload extends React.Component {
                                     </option>
                                 ))}
                             </select>
-
-                            <button onClick={this.handleSelectionSubmit}>Submit</button>
                         </div>
+                        <button onClick={this.handleSelectionSubmit} className="general-button submit-button">Submit</button>
                     </div>
                 )}
 
-                {this.state.latLongSubmitted && ( // Only show if the user submitted the latitude and longitude already
-                    <div>
-                        <h3>Provide Descriptions for Other Columns</h3>
+                {this.state.latLongSubmitted && (
+                    <div className="description-area">
+                        <h3>Provide Descriptions for the Other Columns</h3>
                         {this.renderColumnDescriptions()}
-                        <button onClick={this.handleDescriptionSubmit}>Submit Descriptions</button>
+                        <button onClick={this.handleDescriptionSubmit} className="general-button submit-descriptions-button">
+                            Submit Descriptions
+                        </button>
                     </div>
+                )}
+
+                {this.state.descriptionsSubmitted && (
+                    <EventPreview columnDescriptions={this.state.columnDescriptions} />
                 )}
             </div>
         );

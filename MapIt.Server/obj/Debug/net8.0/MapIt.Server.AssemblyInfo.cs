@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MapIt.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9946f20ed806c950bbb753868cc157fd3fec2b86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+758d29233ccd51e6234d104b314b4489848495e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MapIt.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MapIt.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
